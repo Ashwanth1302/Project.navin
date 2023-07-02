@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins&display=swap');
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(asset/7bc.png   );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 165vh;
+    font-family: 'Poppins', sans-serif;
+
+      text-align: center;
+    
+
+    
+}
+
+p {
+  margin-top: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+ /* Apply styles to all tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow:  5px 10px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  background-color:  #e5e2e3  ;
+     border-radius: 10px;
+     margin-top: 20px;
+
+}
+
+/* Apply styles to table headers */
+table th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Apply styles to table cells */
+table td {
+  padding: 8px;
+}
+
+/* Center align submit buttons */
+form {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style submit buttons */
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+
+
+h1{
+  background-color: rgba( 245, 183, 177 ); /* Decreased alpha value */
+  color: #333333;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  width: 35%;
+  padding:15px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+ 
